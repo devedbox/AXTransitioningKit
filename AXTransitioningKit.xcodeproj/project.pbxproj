@@ -16,6 +16,7 @@
 		DC21417B1E836AF500328E06 /* AXTransitioningKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21417A1E836AF500328E06 /* AXTransitioningKitUITests.swift */; };
 		DC8C428E1E8373AF00BAAF4D /* AXDefaultTransitioningObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8C428D1E8373AF00BAAF4D /* AXDefaultTransitioningObject.swift */; };
 		DC8C42911E837A1000BAAF4D /* DefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8C42901E837A1000BAAF4D /* DefaultViewController.swift */; };
+		DCD46DD21E83A43D0054E528 /* AXTransitioningManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD46DD11E83A43D0054E528 /* AXTransitioningManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		DC21417C1E836AF500328E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC8C428D1E8373AF00BAAF4D /* AXDefaultTransitioningObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AXDefaultTransitioningObject.swift; sourceTree = "<group>"; };
 		DC8C42901E837A1000BAAF4D /* DefaultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultViewController.swift; sourceTree = "<group>"; };
+		DCD46DD11E83A43D0054E528 /* AXTransitioningManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AXTransitioningManager.swift; sourceTree = "<group>"; };
 		ED55D329230D553103048431 /* Pods-AXTransitioningKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXTransitioningKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AXTransitioningKit/Pods-AXTransitioningKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				DC8C428D1E8373AF00BAAF4D /* AXDefaultTransitioningObject.swift */,
+				DCD46DD11E83A43D0054E528 /* AXTransitioningManager.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -356,6 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD46DD21E83A43D0054E528 /* AXTransitioningManager.swift in Sources */,
 				DC8C42911E837A1000BAAF4D /* DefaultViewController.swift in Sources */,
 				DC21415B1E836AF500328E06 /* AppDelegate.swift in Sources */,
 				DC8C428E1E8373AF00BAAF4D /* AXDefaultTransitioningObject.swift in Sources */,
