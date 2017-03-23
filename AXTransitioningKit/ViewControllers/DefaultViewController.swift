@@ -8,12 +8,13 @@
 
 import UIKit
 
-class DefaultViewController: UIViewController {
+class DefaultViewController: UIViewController, UIViewControllerTransitioningDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        transitioningDelegate = self
     }
 
     override func didReceiveMemoryWarning() {

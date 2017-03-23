@@ -1,0 +1,15 @@
+PODS:
+  - AXAnimationChain-Swift (0.3.0):
+    - AXAnimationChainSwift
+  - AXAnimationChainSwift (0.3.0)
+
+DEPENDENCIES:
+  - AXAnimationChain-Swift
+
+SPEC CHECKSUMS:
+  AXAnimationChain-Swift: 02f0a486ca23010f4e8f29bbe412a804018a6e22
+  AXAnimationChainSwift: 53a1203d3b39befd6a698746c2173f67832e3095
+
+PODFILE CHECKSUM: 630e5b4b0e421e9e0300fc7b4de62bb4da302dab
+
+COCOAPODS: 1.2.0

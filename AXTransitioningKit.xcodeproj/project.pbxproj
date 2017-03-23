@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4CAA31B4FFAB9F1DD605F98 /* Pods_AXTransitioningKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16DC685379DA75CB5EA03DC9 /* Pods_AXTransitioningKit.framework */; };
 		DC21415B1E836AF500328E06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21415A1E836AF500328E06 /* AppDelegate.swift */; };
 		DC2141601E836AF500328E06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC21415E1E836AF500328E06 /* Main.storyboard */; };
 		DC2141621E836AF500328E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC2141611E836AF500328E06 /* Assets.xcassets */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16DC685379DA75CB5EA03DC9 /* Pods_AXTransitioningKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AXTransitioningKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A1C24348BFA8DB6C3BD739 /* Pods-AXTransitioningKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXTransitioningKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-AXTransitioningKit/Pods-AXTransitioningKit.release.xcconfig"; sourceTree = "<group>"; };
 		DC2141571E836AF500328E06 /* AXTransitioningKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AXTransitioningKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC21415A1E836AF500328E06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC21415F1E836AF500328E06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		DC21417C1E836AF500328E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC8C428D1E8373AF00BAAF4D /* AXDefaultTransitioningObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AXDefaultTransitioningObject.swift; sourceTree = "<group>"; };
 		DC8C42901E837A1000BAAF4D /* DefaultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultViewController.swift; sourceTree = "<group>"; };
+		ED55D329230D553103048431 /* Pods-AXTransitioningKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AXTransitioningKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AXTransitioningKit/Pods-AXTransitioningKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4CAA31B4FFAB9F1DD605F98 /* Pods_AXTransitioningKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E235A494C4B519D986515D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED55D329230D553103048431 /* Pods-AXTransitioningKit.debug.xcconfig */,
+				42A1C24348BFA8DB6C3BD739 /* Pods-AXTransitioningKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F3D1379F38D835459862E4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16DC685379DA75CB5EA03DC9 /* Pods_AXTransitioningKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DC21414E1E836AF500328E06 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +105,8 @@
 				DC21416E1E836AF500328E06 /* AXTransitioningKitTests */,
 				DC2141791E836AF500328E06 /* AXTransitioningKitUITests */,
 				DC2141581E836AF500328E06 /* Products */,
+				0E235A494C4B519D986515D0 /* Pods */,
+				9F3D1379F38D835459862E4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC21417F1E836AF500328E06 /* Build configuration list for PBXNativeTarget "AXTransitioningKit" */;
 			buildPhases = (
+				89973B99ADF66D9F4D1C4932 /* [CP] Check Pods Manifest.lock */,
 				DC2141531E836AF500328E06 /* Sources */,
 				DC2141541E836AF500328E06 /* Frameworks */,
 				DC2141551E836AF500328E06 /* Resources */,
+				3FF146C79C573BEB16305EC5 /* [CP] Embed Pods Frameworks */,
+				AFF48BC91234B9E9B027F3C0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -275,6 +302,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FF146C79C573BEB16305EC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AXTransitioningKit/Pods-AXTransitioningKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89973B99ADF66D9F4D1C4932 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AFF48BC91234B9E9B027F3C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AXTransitioningKit/Pods-AXTransitioningKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DC2141531E836AF500328E06 /* Sources */ = {
@@ -431,6 +506,7 @@
 		};
 		DC2141801E836AF500328E06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED55D329230D553103048431 /* Pods-AXTransitioningKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TKA48YVS5T;
@@ -444,6 +520,7 @@
 		};
 		DC2141811E836AF500328E06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42A1C24348BFA8DB6C3BD739 /* Pods-AXTransitioningKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TKA48YVS5T;
