@@ -8,6 +8,14 @@
 
 import UIKit
 
-class AXDefaultTransitioningObject: NSObject {
-
+class AXDefaultTransitioningObject: NSObject, UIViewControllerAnimatedTransitioning {
+    func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
+        return 0.0;
+    }
+    
+    func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
+        
+    }
+    
+    
 }
