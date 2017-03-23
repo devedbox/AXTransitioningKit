@@ -57,7 +57,7 @@
         <!--Default-->
         <scene sceneID="fKG-9y-eUm">
             <objects>
-                <viewController id="erh-B9-sNy" sceneMemberID="viewController">
+                <viewController id="erh-B9-sNy" customClass="DefaultViewController" customModule="AXTransitioningKit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FYK-g1-qeM"/>
                         <viewControllerLayoutGuide type="bottom" id="meZ-dY-HEU"/>
@@ -97,7 +97,7 @@
                     <view key="view" contentMode="scaleToFill" id="1jM-RP-PWe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Detail" id="Dbg-ak-Jit"/>
                 </viewController>

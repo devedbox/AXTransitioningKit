@@ -25,6 +25,18 @@
 
 import UIKit
 
-class AXTransitioningManager: NSObject {
-
+public class AXTransitioningManager: NSObject {
+    enum _AXTransitioningType: Int {
+        case `default`
+    }
+    override init() {
+        fatalError("\(#file) can not be init directly. Using class methods to get instances.")
+    }
+    
+    class func animator(using type: _AXTransitioningType = .default, operation: UINavigationControllerOperation = .none) -> UIViewControllerAnimatedTransitioning {
+        switch type {
+        default:
+            return AXDefaultTransitioningObject(operation: operation);
+        }
+    }
 }

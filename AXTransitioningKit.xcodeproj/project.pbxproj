@@ -157,8 +157,8 @@
 		DC8C428C1E83738000BAAF4D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				DC8C428D1E8373AF00BAAF4D /* AXDefaultTransitioningObject.swift */,
 				DCD46DD11E83A43D0054E528 /* AXTransitioningManager.swift */,
+				DC8C428D1E8373AF00BAAF4D /* AXDefaultTransitioningObject.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";

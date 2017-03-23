@@ -8,13 +8,24 @@
 
 import UIKit
 
-class DefaultViewController: UIViewController, UIViewControllerTransitioningDelegate {
+class DefaultViewController: UIViewController, UINavigationControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        transitioningDelegate = self
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        navigationController?.delegate = self
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        navigationController?.delegate = nil
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,6 +33,9 @@ class DefaultViewController: UIViewController, UIViewControllerTransitioningDele
         // Dispose of any resources that can be recreated.
     }
     
+    func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationControllerOperation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        return AXTransitioningManager.animator()
+    }
 
     /*
     // MARK: - Navigation
