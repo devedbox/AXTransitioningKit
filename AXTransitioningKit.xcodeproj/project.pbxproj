@@ -13,6 +13,7 @@
 		DC2141651E836AF500328E06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC2141631E836AF500328E06 /* LaunchScreen.storyboard */; };
 		DC2141701E836AF500328E06 /* AXTransitioningKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21416F1E836AF500328E06 /* AXTransitioningKitTests.swift */; };
 		DC21417B1E836AF500328E06 /* AXTransitioningKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21417A1E836AF500328E06 /* AXTransitioningKitUITests.swift */; };
+		DC8C428E1E8373AF00BAAF4D /* AXDefaultTransitioningObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8C428D1E8373AF00BAAF4D /* AXDefaultTransitioningObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		DC2141761E836AF500328E06 /* AXTransitioningKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AXTransitioningKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC21417A1E836AF500328E06 /* AXTransitioningKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AXTransitioningKitUITests.swift; sourceTree = "<group>"; };
 		DC21417C1E836AF500328E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC8C428D1E8373AF00BAAF4D /* AXDefaultTransitioningObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AXDefaultTransitioningObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				DC21415A1E836AF500328E06 /* AppDelegate.swift */,
 				DC21415E1E836AF500328E06 /* Main.storyboard */,
+				DC8C428C1E83738000BAAF4D /* Classes */,
 				DC2141611E836AF500328E06 /* Assets.xcassets */,
 				DC2141631E836AF500328E06 /* LaunchScreen.storyboard */,
 				DC2141661E836AF500328E06 /* Info.plist */,
@@ -120,6 +123,14 @@
 				DC21417C1E836AF500328E06 /* Info.plist */,
 			);
 			path = AXTransitioningKitUITests;
+			sourceTree = "<group>";
+		};
+		DC8C428C1E83738000BAAF4D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DC8C428D1E8373AF00BAAF4D /* AXDefaultTransitioningObject.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC21415B1E836AF500328E06 /* AppDelegate.swift in Sources */,
+				DC8C428E1E8373AF00BAAF4D /* AXDefaultTransitioningObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +520,7 @@
 				DC2141811E836AF500328E06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC2141821E836AF500328E06 /* Build configuration list for PBXNativeTarget "AXTransitioningKitTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +529,7 @@
 				DC2141841E836AF500328E06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC2141851E836AF500328E06 /* Build configuration list for PBXNativeTarget "AXTransitioningKitUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +538,7 @@
 				DC2141871E836AF500328E06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
